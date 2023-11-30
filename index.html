@@ -34,16 +34,17 @@
     }
   </script>
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+      background-image: url(images/bg-stars.svg)
+    }
   </style>
 </head>
-<body class="grid bg-veryDarkBlue relative">
- <div class="">
-  <h1 class="font-RedHatText absolute lg:top-[15%] top-[50%] lg:left-[35%] lg:text-2xl text-4xl font-bold tracking-[10px] text-white uppercase"> We're launching soon</h1>
- </div>
- <div class="">
-  <div class="flex lg:gap-10 gap-7 absolute lg:top-[30%] top-[90%] lg:left-[25%] mx-10 md:mx-0">
+<body class="grid bg-veryDarkBlue relative container">
+ <div class="relative md:top-[35%] top-[80%]">
+  <div class="">
+    <h1 class="font-RedHatText text-center w-[70%] md:w-full mb-24 lg:text-2xl text-4xl font-bold tracking-[10px] text-white uppercase"> We're launching soon</h1>
+  </div>
+  <div class="flex justify-center lg:gap-10 gap-7">
     <div class="text-center">
       <div class="grid justify-center items-center text-softRed font-bold md:text-8xl text-7xl bg-darkDesaturatedBlue md:w-44 w-40 h-40 mb-4 rounded-md md:border-b-[14px] border-b-[10px] border-b-veryDarkBlackBlue font-RedHatText" id="days">00</div>
       <span class="text-center text-grayishBlue md:text-lg md:tracking-[6px] tracking-[4px] font-bold uppercase font-RedHatText">Days</span>
@@ -63,26 +64,15 @@
   </div>
  </div>
 
-  <div class="">
-    <img src="images/bg-stars.svg" alt="background-images-of-stars" class="w-screen object-fill">
-  </div>
-  
-  <div class="">
-    <img src="images/pattern-hills.svg" alt="pattern-hills-image" class=" w-screen object-fill">
-  </div>
-
-    <div class="flex gap-8 z-10 absolute left-[700px] bottom-24">
+    <div class="flex gap-10 z-10 absolute right-[600px] top-[660px] cursor-pointer">
       <img src="images/icon-facebook.svg" alt="facebook-icon" class="hover:bg-softRed">
       <img src="images/icon-pinterest.svg" alt="pinterest-icon" class="hover:bg-softRed">
       <img src="images/icon-instagram.svg" alt="instagram-icon" class="hover:bg-softRed">
     </div>
-  
-  
-
-  <div class="">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    
+    <div class="objectfill">
+      <img src="images/pattern-hills.svg" alt="pattern-hills-image" width="2000" height="" class="absolute md:top-[535px] top[500px] object-fill">
+    </div>
 
   <script>
 
